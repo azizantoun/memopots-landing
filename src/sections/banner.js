@@ -59,7 +59,7 @@ const Banner = () => {
         />
 
         <Image sx={styles.logo} src={logoImage} alt="logo image" />
-        <Heading as="h2">MemoPots - Save what matters</Heading>
+        <Heading as="h2">Memopots: Save what matters</Heading>
         <Image src={bannerImage} sx={styles.bannerImage} alt="banner moc" />
       </Container>
     </Box>
