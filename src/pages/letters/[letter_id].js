@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import dynamic from 'next/dynamic';
 const FileViewer = dynamic(() => import('react-file-viewer'), {
-    ssr: false
+    ssr: true
 });
 
 function Letter() {
